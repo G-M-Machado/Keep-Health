@@ -1,0 +1,82 @@
+#body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .cadastro {
+    width: 100%;
+    max-width: 400px;
+    margin: auto auto;
+    padding: 40px;
+    background-color: #1a8cff;
+    border-radius: 50px;
+    color: white;
+    border: #4d4d4d 2px groove;
+    box-shadow: rgb(38, 57, 77) 20px 40px 60px -10px;
+  }
+  
+  .formDiv {
+    margin-bottom: 15px;
+  }
+  
+  .formDiv label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .formDiv input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn-form {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .btn-form button {
+    width: 10rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .btn-form .entrar {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .btn-form button:hover {
+    background-color: #4d4d4d;
+  }
+  
+  .btn-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .btn-home button {
+    width: 10rem;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .btn-home button:hover {
+    background-color: #4d4d4d;
+  }

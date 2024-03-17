@@ -1,0 +1,31 @@
+<div id="body">
+    <div class="login">
+        <form (ngSubmit)="entrar()" #loginForm="ngForm">
+            <div class="formDiv">
+                <label for="emailUsuario">E-mail:</label>
+                <input
+                type="text"
+                name="emailUsuario"
+                [(ngModel)]="login.emailUsuario"
+                #nomeUsuario="ngModel">
+            </div>
+            
+            <div class="formDiv">
+                <label for="senhaUsuario">Senha:</label>
+                <input
+                type="password"
+                name="senhaUsuario"
+                [(ngModel)]="login.senha"
+                #senha="ngModel">
+            </div>
+            
+            <div class="btn-login">
+                <button class="entrar" type="submit">Login</button>
+            </div>
+        </form>
+        <div class="divCadastro">
+            <button id="btn-cadastro" routerLink="/cadastro">Cadastrar</button>
+            <button id="btn-rec-senha" (click)="recSenha()">Esqueci a senha</button>
+        </div>
+    </div>
+</div>
